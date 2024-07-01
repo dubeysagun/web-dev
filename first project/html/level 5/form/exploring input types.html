@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>INPUT TYPES DATE , FILE , COLOR, RANGE , BUTTON , SUBMIT , RADIO , checkbox , select , text area(outside form tag)</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form action ="/contact-me">
+        date:<input type="date"><br><br>
+        Username: <input type="text" placeholder="enter name" required="true"><br><br>
+        Password:<input type="password"><br><br>
+        File: <input type="file"><br><br>
+        color: <input type="color"><br><br>
+        price range: <input type="range" min="0" max="5000"><br><br>
+        poke me : <input type="button" value="click me"><br><br>
+<!-- agar tino m se ek hi option select krna ho to tino ka name same hona chahiye -->
+        <label for ="male">Male: </label>
+        <input type="radio" id="male" name ="gender1" value="male"><br>
+        <label for ="female" >Female: </label>
+        <input type="radio" id="female" name ="gender" value="female"><br>
+        <label for ="other" >other: </label>
+        <input type="radio" id="other" name ="gender" value="other"><br><br>
+<!-- checkbox - very much similar to radio but same name ke sath multi value select kr skte hain. -->
+        <label for="c">C</label>
+        <input type="checkbox" name="lang" id="c" value="C"><br>
+        <label for="java">java</label>
+        <input type="checkbox" name="lang" id="java" value="java"><br>
+        <label for="C++">C++</label>
+        <input type="checkbox" name="lang" id="C++" value="C++"><br><br><br>
+<!-- select radio button  +  dropdown for options -->
+        <label for="country">SELECT UR COUNTRY:</label>
+        <select name="country" id="country">
+           <option value="india">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>    
+        </select><br><br>
+
+        
+
+        <br><br><input type="submit">
+
+
+
+
+    </form>
+
+    <textarea rows="5" cols="50">start writing</textarea><br><br>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>forms related tags</title>
+</head>
+<!-- 1. Purpose: Specifies the URL to which the form data should 
+be sent when submitted.
+2. Default: If not specified, the form will be submitted to the 
+current page's URL.
+3. Server-Side: Usually points to a server-side script (like 
+PHP, Python, etc.) that processes the form data. -->
+<body>
+    <h1>form</h1>
+    <form action="/contact-me">
+        <label for="email">Username::</label>
+        <input type="text" id ="email" placeholder="enter name" required="true"><br><br>
+        <label for="pass">Password:::</label>
+        <input id="pass" type="password">
+        <input type="submit">
+    </form>
+<!-- NAME AND VALUE TAGS
+● `name` Property:
+○ ID for Data: Identifies form elements when submitting.
+○ Unique: Should be unique to each element for clarity.
+● `value` Property:
+○ Default Data: Sets initial value for input elements.
+○ Sent to Server: This is the data sent when form is  -->
+
+
+<!-- LABEL TAG
+● Purpose: Adds a text description to form elements.
+● for Attribute: Connects the label to a specific form 
+element using the element's id.
+● Accessibility: Makes the form more accessible.
+● Readability: Enhances form readability and usability -->
+
+</body>
+</html>
